@@ -1,13 +1,307 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curso de inglês online é Wizard ON - Wizard Idiomas</title>
+    <title>Wizard ON - Seções</title>
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .faq-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+        }
 
+        .faq-content.active {
+            max-height: 500px;
+        }
+    </style>
+</head>
+
+<body class="bg-white">
+    <!-- Seção Perguntas Frequentes -->
+    <section class="py-16 px-4" style="background-color: #f8f9fa;">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-4xl font-bold text-center mb-12" style="color: #003e7e;">
+                Perguntas Frequentes
+            </h2>
+
+            <div class="space-y-3">
+                <!-- FAQ Item 1 -->
+                <div class="bg-white rounded-sm shadow-sm overflow-hidden" style="border: 1px solid #e8e8e8;">
+                    <div class="px-8 py-5 flex justify-between items-center cursor-pointer hover:bg-gray-50" onclick="toggleFAQ(this)">
+                        <h3 class="text-lg font-semibold" style="color: #003e7e;">
+                            O que é o Wizard ON?
+                        </h3>
+                        <button class="text-gray-800 text-sm font-medium">
+                            Expandir
+                        </button>
+                    </div>
+                    <div class="faq-content px-8 pb-5">
+                        <p class="text-gray-700 leading-relaxed">
+                            Wizard On é a solução completa para um aprendizado efetivo do idioma. Ele combina qualidade de ensino com tecnologia. Você pode estudar de onde quiser, tendo todo o suporte que só uma escola Wizard oferece, mas agora no formato 100% digital – uma verdadeira escola completa te esperando.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="bg-white rounded-sm shadow-sm overflow-hidden" style="border: 1px solid #e8e8e8;">
+                    <div class="px-8 py-5 flex justify-between items-center cursor-pointer hover:bg-gray-50" onclick="toggleFAQ(this)">
+                        <h3 class="text-lg font-semibold" style="color: #003e7e;">
+                            Como funciona o curso de inglês online da Wizard?
+                        </h3>
+                        <button class="text-gray-800 text-sm font-medium">
+                            Expandir
+                        </button>
+                    </div>
+                    <div class="faq-content px-8 pb-5">
+                        <div class="text-gray-700 space-y-3 leading-relaxed">
+                            <p>O curso funciona como uma verdadeira escola virtual, aliando a tecnologia e a qualidade de ensino da Wizard by Pearson.</p>
+                            <p>Nos cursos de inglês online tradicionais, geralmente existem aulas gravadas com conteúdo antigo. Isso pode acabar prejudicando o aprendizado do aluno.</p>
+                            <p>Já no Wizard ON, você aprenderá com aulas online e ao vivo. Uma metodologia comprovada e exclusiva, que te ajudará a progredir no idioma e desenvolver as 4 habilidades (leitura, conversação, escrita e fala). Além disso, fará você se sentir cada vez mais confiante para se comunicar no idioma, não importa em que nível esteja e o conhecimento prévio que possuir.</p>
+                            <p>Além de tudo isso, você também terá apoio do material didático físico, podendo usá-lo para usar como guia, para atividades e também para realizar consultas.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="bg-white rounded-sm shadow-sm overflow-hidden" style="border: 1px solid #e8e8e8;">
+                    <div class="px-8 py-5 flex justify-between items-center cursor-pointer hover:bg-gray-50" onclick="toggleFAQ(this)">
+                        <h3 class="text-lg font-semibold" style="color: #003e7e;">
+                            Quais são vantagens do curso online de inglês da Wizard?
+                        </h3>
+                        <button class="text-gray-800 text-sm font-medium">
+                            Expandir
+                        </button>
+                    </div>
+                    <div class="faq-content px-8 pb-5">
+                        <div class="text-gray-700 space-y-3 leading-relaxed">
+                            <p>Wizard ON é o curso de idiomas online da Wizard by Pearson. Com ele, você terá acesso à toda a estrutura e à qualidade Wizard, que você já conhece. O aluno Wizard ON conta com um ambiente virtual de aprendizado totalmente interativo.</p>
+                            <p>Com o curso de inglês Wizard ON, o aluno pode: começar a estudar em qualquer época do ano; estudar de onde quiser com aulas ao vivo e professor que te acompanha; ter duas aulas semanais com seu professor e sua turma; utilizar o material didático físico e o aplicativo exclusivo Wiz.me; fazer avaliações internacionais; e, é claro, aproveitar todo o suporte da sua escola.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="bg-white rounded-sm shadow-sm overflow-hidden" style="border: 1px solid #e8e8e8;">
+                    <div class="px-8 py-5 flex justify-between items-center cursor-pointer hover:bg-gray-50" onclick="toggleFAQ(this)">
+                        <h3 class="text-lg font-semibold" style="color: #003e7e;">
+                            Tenho direito ao aplicativo Wiz.me se eu fizer o curso de inglês online?
+                        </h3>
+                        <button class="text-gray-800 text-sm font-medium">
+                            Expandir
+                        </button>
+                    </div>
+                    <div class="faq-content px-8 pb-5">
+                        <p class="text-gray-700 leading-relaxed">
+                            Sim! O aplicativo Wiz.me será seu suporte ao longo de toda a sua jornada de aprendizado do idioma, para estudar quando e onde quiser! Com ele, você poderá acompanhar seu progresso, manter-se conectado com o inglês depois da aula, praticar quando quiser, e muito mais!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Blog -->
+    <section class="py-16 px-4 bg-white">
+        <div class="max-w-6xl mx-auto">
+            <p class="text-blue-600 font-medium mb-2">Blog</p>
+            <h2 class="text-4xl font-bold mb-12" style="color: #003e7e;">
+                Conteúdos para você aprender, conhecer e se divertir!
+            </h2>
+
+            <!-- Post Principal -->
+            <div class="mb-12">
+                <div class="grid md:grid-cols-2 gap-0 bg-white rounded-lg overflow-hidden shadow-sm">
+                    <div class="h-80" style="background-color: #a0e7e5;">
+                        <img src="./assets/bottom1.jpg" alt="Inglês para o mercado de trabalho" class="w-full h-full p-8">
+                        <!-- Círculo central colorido -->
+                        <circle cx="200" cy="150" r="80" fill="white" />
+                        <!-- Divisões do círculo -->
+                        <path d="M 200 70 A 80 80 0 0 1 280 150 L 200 150 Z" fill="#ff4444" />
+                        <path d="M 280 150 A 80 80 0 0 1 200 230 L 200 150 Z" fill="#4444ff" opacity="0.7" />
+                        <circle cx="260" cy="190" r="4" fill="white" />
+                        <circle cx="250" cy="200" r="4" fill="white" />
+                        <circle cx="240" cy="190" r="4" fill="white" />
+                        <path d="M 200 230 A 80 80 0 0 1 120 150 L 200 150 Z" fill="black" />
+                        <rect x="160" y="170" width="10" height="10" fill="white" transform="rotate(45 165 175)" />
+                        <rect x="175" y="185" width="10" height="10" fill="white" transform="rotate(45 180 190)" />
+                        <rect x="145" y="185" width="10" height="10" fill="white" transform="rotate(45 150 190)" />
+                        <!-- Mãos -->
+                        <rect x="50" y="140" width="70" height="20" rx="10" fill="white" />
+                        <rect x="280" y="140" width="70" height="20" rx="10" fill="#e0e0e0" />
+                        <!-- Linha tracejada -->
+                        <line x1="50" y1="220" x2="350" y2="220" stroke="black" stroke-width="2" stroke-dasharray="5,5" />
+                    </div>
+                    <div class="p-8 flex flex-col justify-center">
+                        <span class="inline-block bg-green-100 text-green-700 text-sm px-4 py-1 rounded-full mb-4 self-start border border-green-200">
+                            Carreira
+                        </span>
+                        <h3 class="text-2xl font-bold mb-3" style="color: #003e7e;">
+                            Inglês para o mercado de trabalho: por que ele transforma sua carreira?
+                        </h3>
+                        <p class="text-gray-500 text-sm mb-4">27 de maio de 2025</p>
+                        <p class="text-gray-700 text-lg">
+                            Como aprender inglês para o mercado de trabalho de forma rápida?
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Posts Secundários -->
+            <div class="grid md:grid-cols-2 gap-8 mb-12">
+                <!-- Post 2 -->
+                <div class="flex bg-white rounded-lg overflow-hidden shadow-sm">
+                    <div class="w-1/3 bg-gray-100">
+                        <img src="./assets/bottom2.jpg" alt="Carta de apresentação em espanhol" class="w-full h-full object-cover">
+                    </div>
+                    <div class="w-2/3 p-6">
+                        <span class="inline-block bg-gray-100 text-gray-700 text-sm px-3 py-1 rounded-full mb-3 border border-gray-200">
+                            Idiomas
+                        </span>
+                        <h3 class="text-lg font-bold mb-2" style="color: #003e7e;">
+                            Como escrever uma carta de apresentação em espanhol
+                        </h3>
+                        <p class="text-gray-500 text-sm">21 de maio de 2025</p>
+                    </div>
+                </div>
+                <!-- Post 3 -->
+                <div class="flex bg-white rounded-lg overflow-hidden shadow-sm">
+                    <div class="w-1/3 bg-gray-100">
+                        <img src="./assets/bottom3.jpg" alt="Escrever em inglês" class="w-full h-full object-cover">
+                    </div>
+                    <div class="w-2/3 p-6">
+                        <span class="inline-block bg-gray-100 text-gray-700 text-sm px-3 py-1 rounded-full mb-3 border border-gray-200">
+                            Idiomas
+                        </span>
+                        <h3 class="text-lg font-bold mb-2" style="color: #003e7e;">
+                            Escrever em inglês: como desenvolver sua escrita com confiança
+                        </h3>
+                        <p class="text-gray-500 text-sm">19 de maio de 2025</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <a href="#" class="inline-block text-white font-medium py-3 px-8 rounded-full transition-colors" style="background-color: #0066ff;" onmouseover="this.style.backgroundColor='#0052cc'" onmouseout="this.style.backgroundColor='#0066ff'">
+                    Veja todos os artigos do Blog
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background-color: #001e5a;" class="text-white relative">
+        <!-- Botão Voltar ao Topo -->
+        <div class="absolute left-1/2 transform -translate-x-1/2 -top-4">
+            <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="text-white px-6 py-2 rounded-t-lg transition-colors flex items-center" style="background-color: #002d7a;">
+                Topo <i class="fas fa-chevron-up ml-2 text-xs"></i>
+            </button>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Logo -->
+                <div class="md:col-span-1">
+                    <img src="./assets/logo-footer.png" alt="Logo Wizard" class="h-12 mb-4">
+                </div>
+
+                <!-- Coluna Aprendizagem -->
+                <div>
+                    <h4 class="text-base font-semibold mb-4">Aprendizagem</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Cursos de Idiomas</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Curso de Inglês Online</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">e-Books Gratuitos</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Escolas de Idiomas</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Diferenciais</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Teste de Inglês</a></li>
+                    </ul>
+                </div>
+
+                <!-- Coluna Institucional -->
+                <div>
+                    <h4 class="text-base font-semibold mb-4">Institucional</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Wizard by Pearson</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Blog Wizard</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Parcerias com Empresas</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Promoções e Descontos</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+
+                <!-- Coluna Dúvidas -->
+                <div>
+                    <h4 class="text-base font-semibold mb-4">Dúvidas</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Contato e Trabalhe Conosco</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Como Abrir uma Franquia</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Perguntas Frequentes</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white text-sm">Mapa do Site</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Linha divisória -->
+            <hr class="my-8" style="border-color: #003366;">
+
+            <!-- Redes Sociais -->
+            <div class="text-center">
+                <p class="text-gray-300 mb-4">Acompanhe nossas redes sociais:</p>
+                <div class="flex justify-center space-x-6">
+                    <a href="#" class="text-white hover:text-gray-300 text-xl">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="text-white hover:text-gray-300 text-xl">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-white hover:text-gray-300 text-xl">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-white hover:text-gray-300 text-xl">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#" class="text-white hover:text-gray-300 text-xl">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="#" class="text-white hover:text-gray-300 text-xl">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom bar -->
+        <div class="bg-gray-700 py-4">
+            <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-2 md:mb-0">
+                    <span class="text-cyan-400 text-2xl font-bold">P</span>
+                    <span class="text-white text-lg">Pearson</span>
+                </div>
+                <p class="text-sm text-gray-300">
+                    Copyright 2019 © Wizard by Pearson Todos os direitos reservados
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleFAQ(element) {
+            const content = element.nextElementSibling;
+            const btnText = element.querySelector('button');
+
+            content.classList.toggle('active');
+
+            if (content.classList.contains('active')) {
+                btnText.textContent = 'Recolher';
+            } else {
+                btnText.textContent = 'Expandir';
+            }
+        }
+    </script>
 </body>
+
 </html>
